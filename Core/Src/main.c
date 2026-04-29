@@ -153,7 +153,7 @@ int main(void)
       else if (tjc_rxNum == 2) {
         tjc_rxNum = 0;
         HAL_I2C_DeInit(&hi2c1);
-        HAL_Delay(100);
+        HAL_Delay(10);
         MX_I2C1_Init();
         tjcSetText("t6","??");
 
